@@ -50,7 +50,7 @@
 			<width>1.4</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>cc0000aa</color>
+			<color>800000aa</color>
 		</PolyStyle>
 	</Style>
 	<Style id="PolyStyle001108511201722220">
@@ -63,7 +63,7 @@
 			<width>1.4</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>cc0000aa</color>
+			<color>800000aa</color>
 		</PolyStyle>
 	</Style>
 	<StyleMap id="PolyStyle001108511201722221">
@@ -140,8 +140,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin0">
 				<IconStyle>
@@ -160,8 +158,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin2">
 				<IconStyle>
@@ -171,8 +167,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin3">
 				<IconStyle>
@@ -182,8 +176,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl">
 				<IconStyle>
@@ -193,8 +185,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl0">
 				<IconStyle>
@@ -213,8 +203,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl2">
 				<IconStyle>
@@ -224,8 +212,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl3">
 				<IconStyle>
@@ -235,8 +221,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Folder id="FeatureLayer0">
 				<name>DIAS_ETIQUETADOS</name>
