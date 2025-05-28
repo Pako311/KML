@@ -2,7 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>ESTACION_CARTAS_Avance</name>
-	<open>1</open>
 	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
 	<Style id="PolyStyle00">
 		<LabelStyle>
@@ -80,6 +79,7 @@
 	</StyleMap>
 	<Folder id="020B71E3BB36D32DCE43">
 		<name>ESTACION_CARTAS</name>
+		<open>1</open>
 		<Document id="DIAS_ETIQUETADOS" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
 			<name>DIAS_VUELO</name>
 			<open>1</open>
@@ -134,16 +134,6 @@
 					<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="m_ylw-pushpin34">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin26</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-				</Pair>
-			</StyleMap>
 			<StyleMap id="m_ylw-pushpin30">
 				<Pair>
 					<key>normal</key>
@@ -152,16 +142,6 @@
 				<Pair>
 					<key>highlight</key>
 					<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-				</Pair>
-			</StyleMap>
-			<StyleMap id="m_ylw-pushpin35">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin27</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
 				</Pair>
 			</StyleMap>
 			<StyleMap id="m_ylw-pushpin31">
@@ -174,16 +154,6 @@
 					<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="m_ylw-pushpin36">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin25</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
-				</Pair>
-			</StyleMap>
 			<StyleMap id="m_ylw-pushpin32">
 				<Pair>
 					<key>normal</key>
@@ -194,16 +164,6 @@
 					<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 				</Pair>
 			</StyleMap>
-			<StyleMap id="m_ylw-pushpin37">
-				<Pair>
-					<key>normal</key>
-					<styleUrl>#s_ylw-pushpin24</styleUrl>
-				</Pair>
-				<Pair>
-					<key>highlight</key>
-					<styleUrl>#s_ylw-pushpin_hl7</styleUrl>
-				</Pair>
-			</StyleMap>
 			<StyleMap id="m_ylw-pushpin33">
 				<Pair>
 					<key>normal</key>
@@ -212,6 +172,46 @@
 				<Pair>
 					<key>highlight</key>
 					<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin34">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin26</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin35">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin27</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin36">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin25</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="m_ylw-pushpin37">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#s_ylw-pushpin24</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#s_ylw-pushpin_hl7</styleUrl>
 				</Pair>
 			</StyleMap>
 			<Style id="s_ylw-pushpin">
@@ -241,6 +241,15 @@
 					<scale>0.8</scale>
 				</LabelStyle>
 			</Style>
+			<Style id="s_ylw-pushpin2">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
 			<Style id="s_ylw-pushpin20">
 				<IconStyle>
 					<Icon>
@@ -249,8 +258,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin21">
 				<IconStyle>
@@ -260,8 +267,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin22">
 				<IconStyle>
@@ -271,30 +276,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin24">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin25">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin23">
 				<IconStyle>
@@ -304,8 +285,24 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
+			</Style>
+			<Style id="s_ylw-pushpin24">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin25">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
 			</Style>
 			<Style id="s_ylw-pushpin26">
 				<IconStyle>
@@ -324,19 +321,6 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin2">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin3">
 				<IconStyle>
@@ -364,87 +348,17 @@
 				<LabelStyle>
 					<scale>0.8</scale>
 				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl1">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl2">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl4">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl5">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl6">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl3">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
-			</Style>
-			<Style id="s_ylw-pushpin_hl7">
-				<IconStyle>
-					<Icon>
-					</Icon>
-				</IconStyle>
-				<LabelStyle>
-					<scale>0.8</scale>
-				</LabelStyle>
-				<ListStyle>
-				</ListStyle>
 			</Style>
 			<Style id="s_ylw-pushpin_hl00">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl1">
 				<IconStyle>
 					<Icon>
 					</Icon>
@@ -462,7 +376,25 @@
 					<scale>0.8</scale>
 				</LabelStyle>
 			</Style>
+			<Style id="s_ylw-pushpin_hl2">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
 			<Style id="s_ylw-pushpin_hl20">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl3">
 				<IconStyle>
 					<Icon>
 					</Icon>
@@ -480,145 +412,45 @@
 					<scale>0.8</scale>
 				</LabelStyle>
 			</Style>
+			<Style id="s_ylw-pushpin_hl4">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl5">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl6">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
+			<Style id="s_ylw-pushpin_hl7">
+				<IconStyle>
+					<Icon>
+					</Icon>
+				</IconStyle>
+				<LabelStyle>
+					<scale>0.8</scale>
+				</LabelStyle>
+			</Style>
 			<Folder id="FeatureLayer0">
 				<name>DIAS_ETIQUETADOS</name>
 				<Snippet maxLines="0"></Snippet>
-				<Placemark>
-					<name>25</name>
-					<LookAt>
-						<longitude>-116.7831886117236</longitude>
-						<latitude>32.45872812631676</latitude>
-						<altitude>0</altitude>
-						<heading>-1.272221872585407e-14</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251419</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7952652096022,32.46391706712753,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>25</name>
-					<LookAt>
-						<longitude>-116.7831886117236</longitude>
-						<latitude>32.45872812631676</latitude>
-						<altitude>0</altitude>
-						<heading>-1.272221872585407e-14</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251419</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7813699992271,32.46412442189173,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>25</name>
-					<LookAt>
-						<longitude>-116.7831886117236</longitude>
-						<latitude>32.45872812631676</latitude>
-						<altitude>0</altitude>
-						<heading>-1.272221872585407e-14</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251419</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7882357820992,32.46405538700405,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>30</name>
-					<LookAt>
-						<longitude>-116.783188611599</longitude>
-						<latitude>32.45869364307843</latitude>
-						<altitude>0</altitude>
-						<heading>-3.378035321635586e-10</heading>
-						<tilt>0</tilt>
-						<range>5248.847022249806</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7744632786856,32.46408970265738,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>30</name>
-					<LookAt>
-						<longitude>-116.783188611599</longitude>
-						<latitude>32.45869364307843</latitude>
-						<altitude>0</altitude>
-						<heading>-3.378035321635586e-10</heading>
-						<tilt>0</tilt>
-						<range>5248.847022249806</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7673518761923,32.46405465405937,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>30</name>
-					<LookAt>
-						<longitude>-116.7672918617287</longitude>
-						<latitude>32.45676161842071</latitude>
-						<altitude>0</altitude>
-						<heading>0.008531544499398819</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251107</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7605269178169,32.46401895389099,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>28</name>
-					<LookAt>
-						<longitude>-116.7672918617287</longitude>
-						<latitude>32.45676161842071</latitude>
-						<altitude>0</altitude>
-						<heading>0.008531544499398819</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251107</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7674349554783,32.45636510473461,0</coordinates>
-					</Point>
-				</Placemark>
-				<Placemark>
-					<name>28</name>
-					<LookAt>
-						<longitude>-116.7672918617287</longitude>
-						<latitude>32.45676161842071</latitude>
-						<altitude>0</altitude>
-						<heading>0.008531544499398819</heading>
-						<tilt>0</tilt>
-						<range>5248.847022251107</range>
-						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-					</LookAt>
-					<styleUrl>#m_ylw-pushpin0</styleUrl>
-					<Point>
-						<gx:drawOrder>1</gx:drawOrder>
-						<coordinates>-116.7604880011744,32.45653645270728,0</coordinates>
-					</Point>
-				</Placemark>
 				<Placemark id="ID_00000">
 					<name>2</name>
 					<Snippet maxLines="0"></Snippet>
@@ -21885,750 +21717,6 @@
 				<name>CartasTercerOrden</name>
 				<Snippet maxLines="0"></Snippet>
 				<Placemark id="ID_00000">
-					<name>I11D71b2d1b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d1b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>0</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d1b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>77</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>49</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7916666663835,32.46093749986579,0 -116.7916666663835,32.46874999951291,0 -116.7986111107141,32.46874999951291,0 -116.7986111107141,32.46093749986579,0 -116.7916666663835,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00001">
-					<name>I11D71b2d2a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d2a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>1</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d2a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>85</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>50</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7847222220529,32.46093749986579,0 -116.7847222220529,32.46874999951291,0 -116.7916666663835,32.46874999951291,0 -116.7916666663835,32.46093749986579,0 -116.7847222220529,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00002">
-					<name>I11D71b2d2b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d2b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>2</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d2b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>86</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>50</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7777777777222,32.46093749986579,0 -116.7777777777222,32.46874999951291,0 -116.7847222220529,32.46874999951291,0 -116.7847222220529,32.46093749986579,0 -116.7777777777222,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00003">
-					<name>I11D71c1c1a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>3</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>87</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>59</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7708333333916,32.46093749986579,0 -116.7708333333916,32.46874999951291,0 -116.7777777777222,32.46874999951291,0 -116.7777777777222,32.46093749986579,0 -116.7708333333916,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00004">
-					<name>I11D71c1c1b</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>4</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>95</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>60</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7638888881616,32.46093749986579,0 -116.7638888881616,32.46874999951291,0 -116.7708333333916,32.46874999951291,0 -116.7708333333916,32.46093749986579,0 -116.7638888881616,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00005">
-					<name>I11D71c1c2a</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c2a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>5</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c2a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>96</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>60</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.756944443831,32.46093749986579,0 -116.756944443831,32.46874999951291,0 -116.7638888881616,32.46874999951291,0 -116.7638888881616,32.46093749986579,0 -116.756944443831,32.46093749986579,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00006">
-					<name>I11D71c1c2c</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c2c</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>6</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c2c</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>94</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>55</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>28</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.756944443831,32.45312499931929,0 -116.756944443831,32.46093749986579,0 -116.7638888881616,32.46093749986579,0 -116.7638888881616,32.4531249993193,0 -116.756944443831,32.45312499931929,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00007">
-					<name>I11D71c1c1d</name>
-					<Snippet maxLines="0"></Snippet>
-					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>7</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1d</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>93</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>55</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>28</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-					<styleUrl>#PolyStyle0000</styleUrl>
-					<MultiGeometry>
-						<Polygon>
-							<outerBoundaryIs>
-								<LinearRing>
-									<coordinates>
-										-116.7638888881616,32.4531249993193,0 -116.7638888881616,32.46093749986579,0 -116.7708333333916,32.46093749986579,0 -116.7708333333916,32.4531249993193,0 -116.7638888881616,32.4531249993193,0 
-									</coordinates>
-								</LinearRing>
-							</outerBoundaryIs>
-						</Polygon>
-					</MultiGeometry>
-				</Placemark>
-				<Placemark id="ID_00000">
 					<name>I11D71d2b1a</name>
 					<Snippet maxLines="0"></Snippet>
 					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
@@ -42070,758 +41158,6 @@
 	</Folder>
 	<Folder id="050BE4D93736D32DF853">
 		<name>DiasHechos</name>
-		<Placemark id="ID_00006">
-			<name>I11D71c1c2c</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c2c</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>6</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c2c</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>94</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>55</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>28</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.756944443831,32.45312499931929,0 -116.756944443831,32.46093749986579,0 -116.7638888881616,32.46093749986579,0 -116.7638888881616,32.4531249993193,0 -116.756944443831,32.45312499931929,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00007">
-			<name>I11D71c1c1d</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1d</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>7</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1d</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>93</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>55</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>28</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7638888881616,32.4531249993193,0 -116.7638888881616,32.46093749986579,0 -116.7708333333916,32.46093749986579,0 -116.7708333333916,32.4531249993193,0 -116.7638888881616,32.4531249993193,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00005">
-			<name>I11D71c1c2a</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c2a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>5</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c2a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>96</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>60</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.756944443831,32.46093749986579,0 -116.756944443831,32.46874999951291,0 -116.7638888881616,32.46874999951291,0 -116.7638888881616,32.46093749986579,0 -116.756944443831,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00004">
-			<name>I11D71c1c1b</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>4</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>95</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>60</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7638888881616,32.46093749986579,0 -116.7638888881616,32.46874999951291,0 -116.7708333333916,32.46874999951291,0 -116.7708333333916,32.46093749986579,0 -116.7638888881616,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00003">
-			<name>I11D71c1c1a</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71c1c1a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>3</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71c1c1a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>87</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>59</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>30</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7708333333916,32.46093749986579,0 -116.7708333333916,32.46874999951291,0 -116.7777777777222,32.46874999951291,0 -116.7777777777222,32.46093749986579,0 -116.7708333333916,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00002">
-			<name>I11D71b2d2b</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d2b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>2</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d2b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>86</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>50</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7777777777222,32.46093749986579,0 -116.7777777777222,32.46874999951291,0 -116.7847222220529,32.46874999951291,0 -116.7847222220529,32.46093749986579,0 -116.7777777777222,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00001">
-			<name>I11D71b2d2a</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d2a</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>1</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d2a</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>85</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>50</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7847222220529,32.46093749986579,0 -116.7847222220529,32.46874999951291,0 -116.7916666663835,32.46874999951291,0 -116.7916666663835,32.46093749986579,0 -116.7847222220529,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
-		<Placemark id="ID_00000">
-			<name>I11D71b2d1b</name>
-			<open>1</open>
-			<Snippet maxLines="0"></Snippet>
-			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
-<head>
-
-<META http-equiv="Content-Type" content="text/html">
-
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
-</head>
-
-<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
-<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
-<td>I11D71b2d1b</td>
-
-</tr>
-
-<tr>
-
-<td>
-
-<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
-<tr>
-
-<td>FID</td>
-
-<td>0</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>CLAVE1KTIJ</td>
-
-<td>I11D71b2d1b</td>
-
-</tr>
-
-<tr>
-
-<td>VUELO</td>
-
-<td>77</td>
-
-</tr>
-
-<tr bgcolor="#D4E4F3">
-
-<td>No_Vuelo</td>
-
-<td>49</td>
-
-</tr>
-
-<tr>
-
-<td>DIA</td>
-
-<td>25</td>
-
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-
-</table>
-
-</body>
-
-</html>]]></description>
-			<styleUrl>#PolyStyle000</styleUrl>
-			<MultiGeometry>
-				<Polygon>
-					<outerBoundaryIs>
-						<LinearRing>
-							<coordinates>
-								-116.7916666663835,32.46093749986579,0 -116.7916666663835,32.46874999951291,0 -116.7986111107141,32.46874999951291,0 -116.7986111107141,32.46093749986579,0 -116.7916666663835,32.46093749986579,0 
-							</coordinates>
-						</LinearRing>
-					</outerBoundaryIs>
-				</Polygon>
-			</MultiGeometry>
-		</Placemark>
 		<Placemark id="ID_00196">
 			<name>I11D61f3b1a</name>
 			<open>1</open>
